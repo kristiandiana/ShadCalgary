@@ -134,6 +134,8 @@
 	
 	#navbar__logo {
 		padding-left: 25px;
+		display: flex;
+		
 	}
 	
 	.navbar__toggle .bar {
@@ -145,7 +147,7 @@
 	}
 	
 	.navbar__item {
-			width: 100%
+			width: 0%
 	}
 	
 	.navbar__links {
@@ -441,7 +443,7 @@
 	-webkit-text-fill-color: transparent;
 	-moz-text-fill-color: transparent;
 	margin-bottom: 5rem;
-	font-size: 2.5rem;
+	font-size: 5rem;
 }
 
 .deliverables__wrapper {
@@ -539,12 +541,4 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
-}
-
-@media screen and (max-width: 700px)
-{
-	#footer__images:nth-child(1){
-		width: 200px;
-		height: auto;
-	}
 }
